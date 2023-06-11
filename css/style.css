@@ -90,7 +90,7 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--basic-color);
-  transition: color 0.15s linear;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav_flex {
   display: flex;
@@ -109,7 +109,6 @@ header {
 .navigation:focus,
 .contacts:focus {
   color: var(--secondary-color);
-  transition: 0.3s linear;
 }
 
 .curent {
@@ -129,16 +128,15 @@ header {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail_header:hover .mail_svg {
   fill: var(--secondary-color);
-  transition: 0.3s linear;
 }
 
 .mail_header:hover .mail_name {
   color: var(--secondary-color);
-  transition: 0.3s linear;
 }
 .mailnnumb_item {
   margin-left: 40px;
@@ -153,7 +151,7 @@ header {
 
 .mailnnumb_item:hover .phone_item {
   color: var(--secondary-color);
-  transition: 0.3s linear;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .phone_svg {
@@ -173,7 +171,7 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--paragraph-color);
-  transition: color 0.3s linear;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Hero==========-=================================================================================================== */
@@ -221,7 +219,7 @@ header {
 }
 .btn:hover {
   background-color: #188ce8;
-  transition: 0.3s linear;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* FEATURES================================================================================================================ */
@@ -338,10 +336,11 @@ header {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 .sm_link:hover {
   background-color: var(--secondary-color);
-  transition: 0.3s linear;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sm_svg {
   width: 20px;
@@ -350,7 +349,7 @@ header {
 }
 .sm_link:hover .sm_svg {
   fill: var(--just-white);
-  transition: 0.3s linear;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* OUR CLIENTS============================================================================================================================================== */
@@ -382,6 +381,7 @@ header {
   justify-content: center;
   align-items: center;
   margin-left: 30px;
+  cursor: pointer;
 }
 .clients_item:hover {
   border: 1px solid var(--secondary-color);
@@ -391,6 +391,7 @@ header {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client_svg_use {
@@ -442,6 +443,7 @@ footer {
 
 .f_links_block {
   margin-left: 70px;
+  cursor: pointer;
 }
 .f_par {
   font-family: "Roboto";
@@ -480,6 +482,6 @@ footer {
 }
 .f_links:hover {
   background-color: var(--secondary-color);
-  transition: 0.3s linear;
-  cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: ;
 }
